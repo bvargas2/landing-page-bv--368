@@ -1,0 +1,235 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.6;
+    background: #fdfdfd;
+    color: #111;
+  }
+  
+  /* Navbar */
+  #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1000;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .brand-title {
+    font-family: 'Imperial Script', cursive;
+    font-size: 1.75rem;
+  }
+  
+  #header-img {
+    width: 50px;
+    height: auto;
+  }
+  
+  #nav-bar {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  #hero {
+    padding-top: 100px;
+    text-align: center;
+    background: linear-gradient(to bottom, #d4af37, #fff1d6);
+    padding-bottom: 3rem;
+  }
+  
+  .video-container {
+    position: relative;
+    display: inline-block;
+    margin: 1rem auto;
+  }
+  
+  #video {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff8e1;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin: 1rem auto 0 auto;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  
+  /* Features Section */
+  #features {
+    background-color: #111;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+  
+  .feature {
+    max-width: 200px;
+  }
+  
+  .feature h3 {
+    font-family: 'Imperial Script', cursive;
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .feature img {
+    width: 80px;
+    height: auto;
+  }
+  
+  /* Pricing Section */
+  #pricing {
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, #fff1d6, #d4af37);
+  }
+  
+  .price-card {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 220px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .price-card h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.1rem;
+  }
+  
+  .price-card p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 0.5rem;
+  }
+  
+  .crown-icon {
+    width: 50px;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Form Section*/
+  #join {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .form-message {
+    font-family: 'Imperial Script', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  label {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  
+  #email {
+    padding: 0.5rem;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #submit {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    background: white;
+    color: #111;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer*/
+  footer {
+    background: white;
+    color: #a00;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Imperial Script', cursive;
+    font-size: 1rem;
+  }
